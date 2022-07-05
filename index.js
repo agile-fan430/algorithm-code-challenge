@@ -36,8 +36,8 @@ const printPlayerPair = async () => {
 			})
 		})
 		for (let index = 0; index < resultArray.length; index++) {
-			const element = resultArray[index];
-			console.log(element);
+			const pairedName = resultArray[index];
+			console.log(pairedName);
 		}
 		if (resultArray.length == 0) {
 			console.log("No matches found.");
